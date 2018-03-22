@@ -1,16 +1,6 @@
 # 2018년 3월 12일
-____
 
-함수 실행
-
-call, invoke
-____
-
-# iterative countDown
-
-
-
-# recursive  countDOwn
+# recursive  countDown
 ``` javascript
 function getElementByClassName (el,className) {
 	var result = [];
