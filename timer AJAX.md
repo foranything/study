@@ -1,12 +1,6 @@
 # 2018년 2월 28일
 
 ___
-
-1. 3월 12일에 종료 / 신청
-
-2. 3월 19일 깃헙 멤버 제외
-
-___
 ```javascript
 
 function findDulicates (arr) {
@@ -19,7 +13,7 @@ function findDulicates (arr) {
 
 	for (var i = 0 ; i < arr.length; i++){
 		if (!storage[arr[i]]){
-			storage[arr[i]]=true;
+			storage[arr[i]] = true;
 		} else {
 			result.push(arr[i]);	
 		}
@@ -39,12 +33,6 @@ for (var i = 1 ; i < 11 ; i++){
 }
 
 ```
-___
-기술면접 - 과제
-
-나의 커리어 그로쓰에 도움이 되는지
-
-오늘 뭐했는지 등등 질문
 
 ___
 
