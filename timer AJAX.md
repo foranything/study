@@ -36,7 +36,7 @@ for (var i = 1 ; i < 11 ; i++){
 
 ___
 
-[GeeksforGeeks](www.GeeksforGeeks.org)
+[GeeksforGeeks](http://www.GeeksforGeeks.org)
 ___
 
 
