@@ -1,6 +1,9 @@
 # 2018년 3월 7일
 ___
 
+# git
+___
+
 git init 
 
 git status
