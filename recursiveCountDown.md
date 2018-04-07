@@ -11,7 +11,7 @@ function getElementByClassName (el,className) {
 		if (childEl.classList.contains(className)) {
 			reslt.push(childEl);
 		}
-		
+
 		if (childEl.children.length){
 			result = result.concat(getElementByClassName(childEl, className));
 		}
