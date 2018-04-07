@@ -6,7 +6,7 @@ ___
 
 babeljs.io
 esdiscuss
- 
+
 let 중괄호 단위
 
 const 중괄호 단위
@@ -23,7 +23,7 @@ obj.arr.push(1); //됨
 
 rest parameter
 
-```
+```javascript
 function foo (a, b, ... c) {
 	console.log(c); //['c','d','e','f']
 	console.log(Array.isArray(c)); // true ... arguments는 배열이 아님
@@ -36,7 +36,7 @@ foo('a','b','c','d','e','f');
 
 버터 바르는 거
 
-```
+```javascript
 var arr1 = [1,2,3];
 var arr2 = [4,5,6];
 
@@ -50,7 +50,7 @@ foo(...[1,2,3]) // 6
 ```
 
 #### distructuring
-```
+```javascript
 var address = {
 	city : 'new york'
 	state : NY
@@ -65,17 +65,19 @@ c + ', ' + s //new york, NY
 ```
 
 ### default parameter
-```
+```javascript
 undefined 일떄
 
 const s = 'ken'
 `${s}`
-```
+
 
 
 const fn = (a) => {
 	console.log(a);
 };
+
+```
 
 익명 함수
  

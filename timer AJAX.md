@@ -84,7 +84,7 @@ EVENT LOOP
 
 string, number, object, array, boolean, null
 
-```
+``` javascript
 $.ajax({
 	url : ‘’,
 	type: ‘GET’,
