@@ -77,18 +77,3 @@ git remote add remote_nmae remote_url 리모트 저장소 추가하기
 git commit — amend 이전 커밋에 그냥 추가해 버림
 
 checkout -b develop 브랜치 만들고 이동
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
