@@ -77,3 +77,45 @@ git remote add remote_nmae remote_url 리모트 저장소 추가하기
 git commit — amend 이전 커밋에 그냥 추가해 버림
 
 checkout -b develop 브랜치 만들고 이동
+
+___
+# 2018년 4월 18일
+___
+
+# git introduction 
+
+#### < local vs remote >
+##### Local : your computer
+##### Remote: Storage in Cloud
+
+###### 리모트 추가
+```
+git remote add origin http://name.git
+git remote remove REMOTE_NAME REMOTE_URL
+```
+###### 리모트 보기
+```
+git remote -v
+```
+###### 브랜치 생성 && 이동
+```
+git checkout -b BRANCH_NAME
+```
+###### 브랜치 삭제
+```
+git branch -d BRANCH_NAME
+
+//강제 삭제
+git branch -D BRANCH_NAME
+```
+###### 브랜치 병함
+``` 
+//on master일 떄
+git merge dev //하면 마스터로 dev를 갖다 붙임
+```
+
+##### reset
+
+mixed // add 안된 상태로
+soft // add 된 상태로
+hard // 날려 버림
